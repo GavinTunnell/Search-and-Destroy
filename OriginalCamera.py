@@ -101,7 +101,7 @@ class PCA9685:
 
 # ======================
 # MOTOR DRIVER CLASS
-#Initializes the right and lefft motor drivers
+#Initializes the right and left motor drivers
 # ======================
 class MotorDriver:
     def __init__(self):
@@ -234,7 +234,7 @@ class MotorDriver:
 
 
 #Gives control of motors if not active
-def sit_down_bitch_control(key, active, motors):
+def keyboard_teleop_control(key, active, motors):
     """
     Handle WASD motor control only if `active` is True.
     
@@ -257,7 +257,7 @@ def sit_down_bitch_control(key, active, motors):
             motors.turn_right()
         elif key in ('o', 'O'):
             motors.rotate_right()
-        elif key in ('i', 'i'):
+        elif key in ('i', 'I'):
             motors.rotate_left()
         else:
             motors.stop()
@@ -285,7 +285,7 @@ GPIO.setup(SERVO_PIN, GPIO.OUT)
 GPIO.output(SERVO_PIN, GPIO.LOW)
 
 # -------- Model config --------
-ENGINE_PATH = "green_specific.engine"   # your TensorRT engine
+ENGINE_PATH = os.path.join(os.path.dirname(__file__), "green_specific.engine")   # Relative to carto_ws/scripts
 DEVICE      = 0
 IMGSZ       = 704
 CONF        = 0.25
@@ -349,11 +349,11 @@ laser_toggle_count = 0
 object_servo_angle = 0   # record servo angle when entering state 9
 
 
-#Intialize motors for manuel control
+#Intialize motors for manual control
 motors = MotorDriver()
 active = True
 key = ''   # no key pressed yet
-sit_down_bitch_control(key, active, motors)
+keyboard_teleop_control(key, active, motors)
 
 #Sets initial servo position
 duty = angle_to_duty(angle)
@@ -365,7 +365,7 @@ time.sleep(1)
 try:
     while True: 
         if((state == 1)|(state == 7)):
-            sit_down_bitch_control(key, active, motors)
+            keyboard_teleop_control(key, active, motors)
 
         ok, frame_bgr = cap.read()
         if not ok:
@@ -438,7 +438,7 @@ try:
         
         # ---------- Per-frame state logic ----------
         if state == 1:
-            sit_down_bitch_control(key, active, motors)
+            keyboard_teleop_control(key, active, motors)
             acquiring = True
             if angle > 130:
                 angle = 130
@@ -458,7 +458,7 @@ try:
                 print("STATE -> 8")
                 state = 8
                 active = False
-                sit_down_bitch_control(key, active, motors)
+                keyboard_teleop_control(key, active, motors)
                 motors.stop()
                 
 
@@ -661,7 +661,7 @@ try:
                     state = 7
                     print("STATE -> 7")
                     active = True
-                    sit_down_bitch_control(key, active, motors)
+                    keyboard_teleop_control(key, active, motors)
 
             if state == 7:
                 # cool-down / re-enable motors, keep laser OFF
@@ -694,7 +694,7 @@ try:
                         focus_hits_state8 = 0
                         conf_max = 0.0                 # optional but nice reset
                         active = True
-                        sit_down_bitch_control(key, active, motors)
+                        keyboard_teleop_control(key, active, motors)
                         state = 1
                         print("STATE -> 1")
                         print("Sweep done, low confidence. Returning to scan.")
@@ -737,3 +737,4 @@ try:
 finally:
     cap.release()
     cv2.destroyAllWindows()
+    motors.shutdown()
