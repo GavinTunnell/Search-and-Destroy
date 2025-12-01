@@ -1,10 +1,36 @@
 To Run download the carto_ws zip and extract on desktop.
 
-After install the following repositories
+You also need to meet the following prequistes
 
+NVIDIA Jetson Orin Nano with JetPack 6.2 installed.
+RPLIDAR A1M8 connected via USB (/dev/ttyUSB0).
+BNO055 IMU connected via I2C (pins 3/5).
+Arducam IMX519 camera (CSI port).
+3S LiPo battery (11.1V 5200mAh) with optional short-circuit protection
+Raspberry Pi 5 with touchscreen (for wireless nav input)
+PCA9685 I2C boards (3x: for motors/servos, addresses 0x41, 0x60, 0x42).
+USB/I2C cables, power supplies.
 
-
-
+Python 3.10
+ROS 2 Humble
+colcon build tools
+rosdep
+Git
+Ultralytics YOLOv8 (8.2.0)
+OpenCV (4.8.1.78)
+NumPy (1.24.3)
+TensorRT
+Jetson.GPIO
+smbus
+Cartographer ROS
+RPLIDAR ROS
+Navigation2
+Rosbridge Suite
+tf2_ros
+Nav2 Bringup
+RViz2
+i2c-tools
+PyTorch
 
 #Terminal 1
 
@@ -83,4 +109,3 @@ export FASTDDS_TRANSPORT_SHARED_MEM=off
 source /opt/ros/humble/setup.bash
 source install/setup.bash
 python3 tablet_nav2.py
-
