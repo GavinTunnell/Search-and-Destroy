@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating ros2_mapping_support.egg-info
+writing ros2_mapping_support.egg-info/PKG-INFO
+writing dependency_links to ros2_mapping_support.egg-info/dependency_links.txt
+writing entry points to ros2_mapping_support.egg-info/entry_points.txt
+writing requirements to ros2_mapping_support.egg-info/requires.txt
+writing top-level names to ros2_mapping_support.egg-info/top_level.txt
+writing manifest file 'ros2_mapping_support.egg-info/SOURCES.txt'
+reading manifest file 'ros2_mapping_support.egg-info/SOURCES.txt'
+writing manifest file 'ros2_mapping_support.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/team4/carto_ws/install/ros2_mapping_support/lib/python3.10/site-packages/ros2-mapping-support.egg-link (link to .)
+Installing bno055_imu_node script to /home/team4/carto_ws/install/ros2_mapping_support/lib/ros2_mapping_support
+Installing motor_driver_pca_reg_dual script to /home/team4/carto_ws/install/ros2_mapping_support/lib/ros2_mapping_support
+
+Installed /home/team4/carto_ws/build/ros2_mapping_support
+running symlink_data
+creating /home/team4/carto_ws/install/ros2_mapping_support/share/ament_index
+creating /home/team4/carto_ws/install/ros2_mapping_support/share/ament_index/resource_index
+creating /home/team4/carto_ws/install/ros2_mapping_support/share/ament_index/resource_index/packages
+symbolically linking /home/team4/carto_ws/build/ros2_mapping_support/resource/ros2_mapping_support -> /home/team4/carto_ws/install/ros2_mapping_support/share/ament_index/resource_index/packages
+symbolically linking /home/team4/carto_ws/build/ros2_mapping_support/package.xml -> /home/team4/carto_ws/install/ros2_mapping_support/share/ros2_mapping_support
+creating /home/team4/carto_ws/install/ros2_mapping_support/share/ros2_mapping_support/config
+symbolically linking /home/team4/carto_ws/build/ros2_mapping_support/config/cartographer_2d_no_odom.lua -> /home/team4/carto_ws/install/ros2_mapping_support/share/ros2_mapping_support/config
+symbolically linking /home/team4/carto_ws/build/ros2_mapping_support/config/nav2_params_cartographer_slam.yaml -> /home/team4/carto_ws/install/ros2_mapping_support/share/ros2_mapping_support/config
+creating /home/team4/carto_ws/install/ros2_mapping_support/share/ros2_mapping_support/launch
+symbolically linking /home/team4/carto_ws/build/ros2_mapping_support/launch/cartographer_lidar_imu.launch.py -> /home/team4/carto_ws/install/ros2_mapping_support/share/ros2_mapping_support/launch
+symbolically linking /home/team4/carto_ws/build/ros2_mapping_support/launch/full_system_cartographer_nav2.launch.py -> /home/team4/carto_ws/install/ros2_mapping_support/share/ros2_mapping_support/launch

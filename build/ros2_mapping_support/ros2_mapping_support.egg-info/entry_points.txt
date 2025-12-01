@@ -1,0 +1,5 @@
+[console_scripts]
+bno055_imu_node = ros2_mapping_support.bno055_imu_node:main
+motor_driver_pca_reg_dual = ros2_mapping_support.motor_driver_pca_reg_dual:main
+nav_alignment_state_machine = ros2_mapping_support.nav_alignment_state_machine:main
+

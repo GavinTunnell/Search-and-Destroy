@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros2_mapping_support</name>
+  <version>0.0.0</version>
+  <description>RPLIDAR + BNO055 IMU support and Cartographer launch files</description>
+
+  <maintainer email="gavintunnell20@gmail.com">team4</maintainer>
+  <license>MIT</license>
+
+  <!-- Python build tool -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Build / run dependencies -->
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav2_msgs</depend>
+  <depend>action_msgs</depend>
+
+  <!-- We only need these at runtime, not to build this package -->
+  <exec_depend>rplidar_ros</exec_depend>
+  <exec_depend>cartographer_ros</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>robot_localization</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

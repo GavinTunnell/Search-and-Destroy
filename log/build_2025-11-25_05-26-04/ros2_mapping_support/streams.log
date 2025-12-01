@@ -1,0 +1,18 @@
+[2.196s] Invoking command in '/home/team4/carto_ws/build/ros2_mapping_support': PYTHONPATH=/home/team4/carto_ws/build/ros2_mapping_support/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team4/carto_ws/install/ros2_mapping_support/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/team4/carto_ws/build/ros2_mapping_support/build --no-deps symlink_data
+[2.903s] running develop
+[3.385s] running egg_info
+[3.387s] writing ros2_mapping_support.egg-info/PKG-INFO
+[3.390s] writing dependency_links to ros2_mapping_support.egg-info/dependency_links.txt
+[3.396s] writing entry points to ros2_mapping_support.egg-info/entry_points.txt
+[3.398s] writing requirements to ros2_mapping_support.egg-info/requires.txt
+[3.402s] writing top-level names to ros2_mapping_support.egg-info/top_level.txt
+[3.410s] reading manifest file 'ros2_mapping_support.egg-info/SOURCES.txt'
+[3.413s] writing manifest file 'ros2_mapping_support.egg-info/SOURCES.txt'
+[3.418s] running build_ext
+[3.420s] Creating /home/team4/carto_ws/install/ros2_mapping_support/lib/python3.10/site-packages/ros2-mapping-support.egg-link (link to .)
+[3.437s] Installing bno055_imu_node script to /home/team4/carto_ws/install/ros2_mapping_support/lib/ros2_mapping_support
+[3.439s] Installing motor_driver_pca_reg_dual script to /home/team4/carto_ws/install/ros2_mapping_support/lib/ros2_mapping_support
+[3.440s] 
+[3.440s] Installed /home/team4/carto_ws/build/ros2_mapping_support
+[3.441s] running symlink_data
+[3.662s] Invoked command in '/home/team4/carto_ws/build/ros2_mapping_support' returned '0': PYTHONPATH=/home/team4/carto_ws/build/ros2_mapping_support/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team4/carto_ws/install/ros2_mapping_support/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/team4/carto_ws/build/ros2_mapping_support/build --no-deps symlink_data

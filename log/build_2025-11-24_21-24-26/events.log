@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.000440] (ros2_mapping_support) JobQueued: {'identifier': 'ros2_mapping_support', 'dependencies': OrderedDict()}
+[0.001686] (ros2_mapping_support) JobStarted: {'identifier': 'ros2_mapping_support'}
+[0.099052] (-) TimerEvent: {}
+[0.199449] (-) TimerEvent: {}
+[0.300871] (-) TimerEvent: {}
+[0.401321] (-) TimerEvent: {}
+[0.501740] (-) TimerEvent: {}
+[0.602129] (-) TimerEvent: {}
+[0.702556] (-) TimerEvent: {}
+[0.802956] (-) TimerEvent: {}
+[0.903429] (-) TimerEvent: {}
+[1.003904] (-) TimerEvent: {}
+[1.104628] (-) TimerEvent: {}
+[1.205593] (-) TimerEvent: {}
+[1.306075] (-) TimerEvent: {}
+[1.351578] (ros2_mapping_support) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/team4/carto_ws/build/ros2_mapping_support/build', '--no-deps', 'symlink_data'], 'cwd': '/home/team4/carto_ws/build/ros2_mapping_support', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'VSCODE_CWD': '/home/team4', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'team4', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/usr/local/cuda/targets/aarch64-linux/lib:', 'HOME': '/home/team4', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-358d1919-1.10-main.sock', 'JETSON_L4T': '36.4.3', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': '1', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super', 'MANAGERPID': '2205', 'SYSTEMD_EXEC_PID': '2395', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4257', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'IM_CONFIG_PHASE': '1', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'team4', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1422924334710', 'JOURNAL_STREAM': '8:43531', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'APPLICATIONINSIGHTS_CONFIGURATION_CONTENT': '{}', 'RUST_LOG': 'warn', 'USERNAME': 'team4', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/tmp/.tmpymOcGB:/home/team4/.local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/team4/.vscode/extensions/openai.chatgpt-0.4.46-linux-arm64/bin/linux-aarch64', 'SESSION_MANAGER': 'local/team4-desktop:@/tmp/.ICE-unix/2362,unix/team4-desktop:/tmp/.ICE-unix/2362', 'INVOCATION_ID': 'e0f8857e889943a68fdc156f8305236e', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'JETSON_SOC': 'tegra234', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/team4/carto_ws/build/ros2_mapping_support', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/team4/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/team4/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'JETSON_JETPACK': '6.2', 'VSCODE_PID': '4257', 'JETSON_P_NUMBER': 'p3767-0005', 'PYTHONPATH': '/home/team4/carto_ws/build/ros2_mapping_support/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/team4/carto_ws/install/ros2_mapping_support/lib/python3.10/site-packages:'}, 'shell': False}
+[1.406231] (-) TimerEvent: {}
+[1.506610] (-) TimerEvent: {}
+[1.607004] (-) TimerEvent: {}
+[1.707415] (-) TimerEvent: {}
+[1.807799] (-) TimerEvent: {}
+[1.810376] (ros2_mapping_support) StdoutLine: {'line': b'running develop\n'}
+[1.908020] (-) TimerEvent: {}
+[2.008409] (-) TimerEvent: {}
+[2.044928] (ros2_mapping_support) StdoutLine: {'line': b'running egg_info\n'}
+[2.046006] (ros2_mapping_support) StdoutLine: {'line': b'writing ros2_mapping_support.egg-info/PKG-INFO\n'}
+[2.046802] (ros2_mapping_support) StdoutLine: {'line': b'writing dependency_links to ros2_mapping_support.egg-info/dependency_links.txt\n'}
+[2.047312] (ros2_mapping_support) StdoutLine: {'line': b'writing entry points to ros2_mapping_support.egg-info/entry_points.txt\n'}
+[2.047835] (ros2_mapping_support) StdoutLine: {'line': b'writing requirements to ros2_mapping_support.egg-info/requires.txt\n'}
+[2.048185] (ros2_mapping_support) StdoutLine: {'line': b'writing top-level names to ros2_mapping_support.egg-info/top_level.txt\n'}
+[2.052249] (ros2_mapping_support) StdoutLine: {'line': b"reading manifest file 'ros2_mapping_support.egg-info/SOURCES.txt'\n"}
+[2.054095] (ros2_mapping_support) StdoutLine: {'line': b"writing manifest file 'ros2_mapping_support.egg-info/SOURCES.txt'\n"}
+[2.056986] (ros2_mapping_support) StdoutLine: {'line': b'running build_ext\n'}
+[2.057508] (ros2_mapping_support) StdoutLine: {'line': b'Creating /home/team4/carto_ws/install/ros2_mapping_support/lib/python3.10/site-packages/ros2-mapping-support.egg-link (link to .)\n'}
+[2.059378] (ros2_mapping_support) StdoutLine: {'line': b'Installing bno055_imu_node script to /home/team4/carto_ws/install/ros2_mapping_support/lib/ros2_mapping_support\n'}
+[2.059941] (ros2_mapping_support) StdoutLine: {'line': b'Installing motor_driver_pca_reg_dual script to /home/team4/carto_ws/install/ros2_mapping_support/lib/ros2_mapping_support\n'}
+[2.060525] (ros2_mapping_support) StdoutLine: {'line': b'\n'}
+[2.060665] (ros2_mapping_support) StdoutLine: {'line': b'Installed /home/team4/carto_ws/build/ros2_mapping_support\n'}
+[2.060943] (ros2_mapping_support) StdoutLine: {'line': b'running symlink_data\n'}
+[2.108626] (-) TimerEvent: {}
+[2.145083] (ros2_mapping_support) CommandEnded: {'returncode': 0}
+[2.202997] (ros2_mapping_support) JobEnded: {'identifier': 'ros2_mapping_support', 'rc': 0}
+[2.204266] (-) EventReactorShutdown: {}

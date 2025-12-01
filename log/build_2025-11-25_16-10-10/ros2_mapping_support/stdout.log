@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing ros2_mapping_support.egg-info/PKG-INFO
+writing dependency_links to ros2_mapping_support.egg-info/dependency_links.txt
+writing entry points to ros2_mapping_support.egg-info/entry_points.txt
+writing requirements to ros2_mapping_support.egg-info/requires.txt
+writing top-level names to ros2_mapping_support.egg-info/top_level.txt
+reading manifest file 'ros2_mapping_support.egg-info/SOURCES.txt'
+writing manifest file 'ros2_mapping_support.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/team4/carto_ws/install/ros2_mapping_support/lib/python3.10/site-packages/ros2-mapping-support.egg-link (link to .)
+Installing bno055_imu_node script to /home/team4/carto_ws/install/ros2_mapping_support/lib/ros2_mapping_support
+Installing motor_driver_pca_reg_dual script to /home/team4/carto_ws/install/ros2_mapping_support/lib/ros2_mapping_support
+Installing nav_alignment_state_machine script to /home/team4/carto_ws/install/ros2_mapping_support/lib/ros2_mapping_support
+
+Installed /home/team4/carto_ws/build/ros2_mapping_support
+running symlink_data
