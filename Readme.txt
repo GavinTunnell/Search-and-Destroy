@@ -32,6 +32,8 @@ RViz2
 i2c-tools
 PyTorch
 
+To launch complete the following
+
 #Terminal 1
 
 pkill -f nav2_bringup || true
