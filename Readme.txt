@@ -1,3 +1,11 @@
+To Run download the carto_ws zip and extract on desktop.
+
+After install the following repositories
+
+
+
+
+
 #Terminal 1
 
 pkill -f nav2_bringup || true
